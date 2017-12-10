@@ -1,0 +1,18 @@
+.Profil {
+	height: 70vh; 
+	margin: 20vh 0 0 0; 
+}
+
+h1 {
+	font-weight: 800;
+}
+
+h2 {
+	font-weight: 200;
+	font-size: 30px; 
+}
+
+img {
+	margin-left: 7vw;
+	width: 120px;
+}
