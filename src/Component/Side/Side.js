@@ -6,6 +6,7 @@ import Menu from '../Menu/Menu';
 
 class Side extends React.Component{
 	render(){
+		console.log('Side renders')
 		return (
 			<div className="Side">
 				<div className="col s12">
