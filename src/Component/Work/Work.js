@@ -1,4 +1,5 @@
 import React from 'react';
+import { Collapsible, CollapsibleItem } from 'react-materialize'
 
 import './Work.css';
 
@@ -6,22 +7,17 @@ class Work extends React.Component{
 	render(){
 		return(
 			<div className="Work" >
-				<ul class="collapsible" data-collapsible="accordion">
-					<li>
-					<div class="collapsible-header">
-						<i class="material-icons">filter_drama</i>
-						Customer Happiness @ GetQuanty / Paris
-						<span class="badge">Poste actuel</span></div>
-					<div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-					</li>
-					<li>
-					<div class="collapsible-header">
-						<i class="material-icons">place</i>
-						Project Manager @ Fullsix / Paris
-						<span class="badge">2016 / 2017</span></div>
-					<div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-					</li>
-				</ul>
+				<Collapsible accordion>
+					<CollapsibleItem header='First' icon='filter_drama'>
+						Lorem ipsum dolor sit amet.
+					</CollapsibleItem>
+					<CollapsibleItem header='Second' icon='place'>
+						Lorem ipsum dolor sit amet.
+					</CollapsibleItem>
+					<CollapsibleItem header='Third' icon='whatshot'>
+						Lorem ipsum dolor sit amet.
+					</CollapsibleItem>
+				</Collapsible>
 			</div>
 		)
 	}

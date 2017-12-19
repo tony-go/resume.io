@@ -5,6 +5,7 @@
   "dependencies": {
     "materialize-css": "^0.100.2",
     "react": "^16.2.0",
+    "react-bodymovin": "^1.1.1",
     "react-dom": "^16.2.0",
     "react-materialize": "^1.1.1",
     "react-router": "^4.2.0",

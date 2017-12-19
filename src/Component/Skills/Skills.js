@@ -1,27 +1,27 @@
 import React from 'react';
+import ReactBodymovin from 'react-bodymovin'
+import animation from './anim.json'
+import { Collapsible, CollapsibleItem } from 'react-materialize'
 
 import './Skills.css';
 
 class Skills extends React.Component{
+
 	render(){
+
 		return(
 			<div className="Skills" >
-				<ul class="collapsible" data-collapsible="accordion">
-					<li>
-					<div class="collapsible-header">
-						<i class="material-icons">filter_drama</i>
-						JS
-						<span class="badge">Poste actuel</span></div>
-					<div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-					</li>
-					<li>
-					<div class="collapsible-header">
-						<i class="material-icons">place</i>
-						HTML /CSS
-						<span class="badge">2016 / 2017</span></div>
-					<div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-					</li>
-				</ul>
+				<Collapsible accordion>
+					<CollapsibleItem header='First' icon='filter_drama'>
+						Lorem ipsum dolor sit amet.
+					</CollapsibleItem>
+					<CollapsibleItem header='Second' icon='place'>
+						Lorem ipsum dolor sit amet.
+					</CollapsibleItem>
+					<CollapsibleItem header='Third' icon='whatshot'>
+						Lorem ipsum dolor sit amet.
+					</CollapsibleItem>
+				</Collapsible>
 			</div>
 		)
 	}
