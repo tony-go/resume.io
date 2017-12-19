@@ -1,6 +1,4 @@
 import React from 'react';
-import ReactBodymovin from 'react-bodymovin'
-import animation from './anim.json'
 import { Collapsible, CollapsibleItem } from 'react-materialize'
 
 import './Skills.css';

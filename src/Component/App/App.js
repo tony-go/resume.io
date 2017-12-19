@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import {Row, Col} from 'materialize-css' 
-import { BrowserRouter as Router, Route, Link  } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Side from '../Side/Side'
 import Work from '../Work/Work'
 import Skills from '../Skills/Skills'
 import Education from '../Education/Education'
-
+import Hobbies from '../Hobbies/Hobbies'
 
 
 class App extends Component {
@@ -20,6 +18,7 @@ class App extends Component {
             <Side />
           </div>
           <div className="App-view col l9 m12">
+            <Route exact path='/' component={Hobbies} />
             <Route path='/work' component={Work} />
             <Route path='/skills' component={Skills} />
             <Route path='/education' component={Education} />
