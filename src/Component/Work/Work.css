@@ -1,6 +1,18 @@
-/* .Work {
-	top: 40%;
-	left: 50%;
-	display: block;
-	position: absolute;
-} */
+.Work h2 {
+	font-weight: 600; 
+	font-size: 25px; 
+}
+
+.wrap{
+	margin: 0 auto;
+	position: relative;
+	padding: 0 21px;
+}
+
+.Work p {
+	padding-top: 7px; 
+}
+
+.card {
+ margin: 0px 0px 0px 0px; 
+}
