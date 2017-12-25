@@ -14,7 +14,8 @@ class Hobbies extends React.Component {
         }    
 
         return (
-        <div>
+        <div className="wrap">
+            <h1>Hobbies</h1>
             <ReactBodymovin options={bodymovinOptions} />
         </div>
         )
