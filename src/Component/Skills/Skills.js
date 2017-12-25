@@ -7,41 +7,41 @@ class Skills extends React.Component{
 
 	render(){
 		return(
-			<div class="wrap">
-				<div class="section-title wow fadeInUp">
+			<div className="Skills wrap">
+				<div className="section-title wow fadeInUp">
 				<h1>My Skills</h1>
-				<span class="border"></span>
+				<span className="border"></span>
 				</div>
-				<article class="row">
+				<article className="row">
 					<ul>
-						<li class="html">
-							<em>HTML/HTML5</em>
+						<li className="adobe">
+							<h2>Adobe Suite / Sketch</h2>
 							<div>
-								<span class="animated fadeInLeft"></span>
+								<span className="animated fadeInLeft"></span>
 							</div>
 						</li>
-						<li class="css">
-							<em>CSS/CSS3</em>
+						<li className="react">
+							<h2>ReactJs</h2>
 							<div>
-								<span class="animated fadeInLeft"></span>
+								<span className="animated fadeInLeft"></span>
 							</div>
 						</li>
-						<li class="php">
-							<em>PHP/OOP</em>
+						<li className="es6">
+							<h2>Javascript / ES6</h2>
 							<div>
-								<span class="animated fadeInLeft"></span>
+								<span className="animated fadeInLeft"></span>
 							</div>
 						</li>
-						<li class="mysql">
-							<em>MYSQL</em>
+						<li className="node">
+							<h2>NodeJs</h2>
 							<div>
-								<span class="animated fadeInLeft"></span>
+								<span className="animated fadeInLeft"></span>
 							</div>
 						</li>
-						<li class="mysql">
-							<em>MYSQL</em>
+						<li className="redux">
+							<h2>Redux</h2>
 							<div>
-								<span class="animated fadeInLeft"></span>
+								<span className="animated fadeInLeft"></span>
 							</div>
 						</li>
 					</ul>

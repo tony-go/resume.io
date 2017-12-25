@@ -1,37 +1,34 @@
-.Skills {
-	top: 40%;
-	left: 50%;
-	display: block;
-	position: absolute;
+.Skills h2 {
+	font-weight: 600; 
+	font-size: 25px; 
 }
 
 .wrap{
 	max-width: 860px;
-	max-height: 700px;
 	margin: 0 auto;
 	position: relative;
 	padding: 0 20px;
 }
 
-.row ul li{
+.row > ul li{
 	list-style: none !important;
 }
 
-.row ul li em{
+.row > ul li em{
 	display: block;
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 }
 
-.row ul li div{
+.row > ul li div{
 	margin-bottom: 35px;
 	border-radius: 3px 3px 3px 3px;
 	-webkit-border-radius: 3px 3px 3px 3px;
-	background: #09131B;
+	background:linear-gradient(left, gray, black);
 	height: 42px;
 	overflow: hidden;
 }
 
-.row ul li div span{
+.row > ul li div span{
 	height: 42px;
 	width: 50%;
 	display: block;
@@ -39,14 +36,14 @@
 	-webkit-border-radius: 3px 3px 3px 3px;
 }
 
-.row ul li.html div span { background: #E13C4C; width: 90%; }
-.row ul li.css div span { background: #ffdb43; width: 90%; }
-.row ul li.php div span { background: #9D2027; width: 80%; }
-.row ul li.mysql div span { background: #3498db; width: 75%; }
-.row ul li.jquery div span { background: #2ecc71; width: 60%; }
-.row ul li.javascript div span { background: #A94034 }
-.row ul li.seo div span { background: #FF8137; width: 60%; }
-.row ul li.unix div span { width: 65%; background: #0CBFB3; }
+.row > ul li.adobe div span { background:linear-gradient(left, #ff0, rgb(237, 206, 34)); width: 80%; }
+.row > ul li.react div span { background:linear-gradient(left, #ff0, rgb(237, 206, 34)); width: 65%; }
+.row > ul li.es6 div span { background:linear-gradient(left, #ff0, rgb(237, 206, 34)); width: 50%; }
+.row > ul li.node div span { background:linear-gradient(left, #ff0, rgb(237, 206, 34)); width: 35%; }
+.row > ul li.redux div span { background:linear-gradient(left, #ff0, rgb(237, 206, 34)); width: 25%; }
+/* .row ul li.javascript div span { background:linear-gradient(left, #ff0, rgb(237, 206, 34)) }
+.row ul li.seo div span { background:linear-gradient(left, #ff0, rgb(237, 206, 34)); width: 60%; }
+.row ul li.unix div span { width: 65%; background:linear-gradient(left, #ff0, rgb(237, 206, 34)); } */
 
 .animated {
 	-webkit-animation-duration: 1s;
