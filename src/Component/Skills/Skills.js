@@ -6,21 +6,47 @@ import './Skills.css';
 class Skills extends React.Component{
 
 	render(){
-
 		return(
-			<div className="Skills" >
-				<Collapsible accordion>
-					<CollapsibleItem header='First' icon='filter_drama'>
-						Lorem ipsum dolor sit amet.
-					</CollapsibleItem>
-					<CollapsibleItem header='Second' icon='place'>
-						Lorem ipsum dolor sit amet.
-					</CollapsibleItem>
-					<CollapsibleItem header='Third' icon='whatshot'>
-						Lorem ipsum dolor sit amet.
-					</CollapsibleItem>
-				</Collapsible>
-			</div>
+			<div class="wrap">
+				<div class="section-title wow fadeInUp">
+				<h1>My Skills</h1>
+				<span class="border"></span>
+				</div>
+				<article class="row">
+					<ul>
+						<li class="html">
+							<em>HTML/HTML5</em>
+							<div>
+								<span class="animated fadeInLeft"></span>
+							</div>
+						</li>
+						<li class="css">
+							<em>CSS/CSS3</em>
+							<div>
+								<span class="animated fadeInLeft"></span>
+							</div>
+						</li>
+						<li class="php">
+							<em>PHP/OOP</em>
+							<div>
+								<span class="animated fadeInLeft"></span>
+							</div>
+						</li>
+						<li class="mysql">
+							<em>MYSQL</em>
+							<div>
+								<span class="animated fadeInLeft"></span>
+							</div>
+						</li>
+						<li class="mysql">
+							<em>MYSQL</em>
+							<div>
+								<span class="animated fadeInLeft"></span>
+							</div>
+						</li>
+					</ul>
+				</article>
+		  	</div>
 		)
 	}
 }

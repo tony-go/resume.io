@@ -4,3 +4,82 @@
 	display: block;
 	position: absolute;
 }
+
+.wrap{
+	max-width: 860px;
+	max-height: 700px;
+	margin: 0 auto;
+	position: relative;
+	padding: 0 20px;
+}
+
+.row ul li{
+	list-style: none !important;
+}
+
+.row ul li em{
+	display: block;
+	margin-bottom: 15px;
+}
+
+.row ul li div{
+	margin-bottom: 35px;
+	border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	background: #09131B;
+	height: 42px;
+	overflow: hidden;
+}
+
+.row ul li div span{
+	height: 42px;
+	width: 50%;
+	display: block;
+	border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+}
+
+.row ul li.html div span { background: #E13C4C; width: 90%; }
+.row ul li.css div span { background: #ffdb43; width: 90%; }
+.row ul li.php div span { background: #9D2027; width: 80%; }
+.row ul li.mysql div span { background: #3498db; width: 75%; }
+.row ul li.jquery div span { background: #2ecc71; width: 60%; }
+.row ul li.javascript div span { background: #A94034 }
+.row ul li.seo div span { background: #FF8137; width: 60%; }
+.row ul li.unix div span { width: 65%; background: #0CBFB3; }
+
+.animated {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+  }.fadeInLeft {
+	-webkit-animation-name: fadeInLeft;
+	animation-name: fadeInLeft;
+  }
+  @-webkit-keyframes fadeInLeft {
+	0% {
+	  opacity: 0;
+	  -webkit-transform: translate3d(-100%, 0, 0);
+	  transform: translate3d(-100%, 0, 0);
+	}100% {
+	  opacity: 1;
+	  -webkit-transform: none;
+	  transform: none;
+	}
+  }
+  @keyframes fadeInLeft {
+	0% {
+	  opacity: 0;
+	  -webkit-transform: translate3d(-100%, 0, 0);
+	  -ms-transform: translate3d(-100%, 0, 0);
+	  transform: translate3d(-100%, 0, 0);
+	}100% {
+	  opacity: 1;
+	  -webkit-transform: none;
+	  -ms-transform: none;
+	  transform: none;
+	}
+  }
+  
+  
