@@ -13,6 +13,10 @@
 	padding-top: 7px; 
 }
 
-.card {
- margin: 0px 0px 0px 0px; 
+.chip {
+	background-color: #ff0;
+}
+
+.collapsible {
+	margin-top: 10%; 
 }
