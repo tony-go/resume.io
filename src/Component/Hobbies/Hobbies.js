@@ -10,7 +10,8 @@ class Hobbies extends React.Component {
             loop: true,
             autoplay: true,
             prerender: true,
-            animationData: hobbies
+            animationData: hobbies,
+            assetsPath: "/images/"
         }    
 
         return (
