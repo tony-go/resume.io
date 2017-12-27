@@ -24,26 +24,24 @@
 	border-radius: 3px 3px 3px 3px;
 	-webkit-border-radius: 3px 3px 3px 3px;
 	background:linear-gradient(left, gray, black);
-	height: 42px;
+	height: 25px;
 	overflow: hidden;
 }
 
 .row > ul li div span{
-	height: 42px;
+	height: 25px;
 	width: 50%;
 	display: block;
 	border-radius: 3px 3px 3px 3px;
 	-webkit-border-radius: 3px 3px 3px 3px;
 }
 
-.row > ul li.adobe div span { background:linear-gradient(left, #ff0, rgb(237, 206, 34)); width: 80%; }
-.row > ul li.react div span { background:linear-gradient(left, #ff0, rgb(237, 206, 34)); width: 65%; }
-.row > ul li.es6 div span { background:linear-gradient(left, #ff0, rgb(237, 206, 34)); width: 50%; }
-.row > ul li.node div span { background:linear-gradient(left, #ff0, rgb(237, 206, 34)); width: 35%; }
-.row > ul li.redux div span { background:linear-gradient(left, #ff0, rgb(237, 206, 34)); width: 25%; }
-/* .row ul li.javascript div span { background:linear-gradient(left, #ff0, rgb(237, 206, 34)) }
-.row ul li.seo div span { background:linear-gradient(left, #ff0, rgb(237, 206, 34)); width: 60%; }
-.row ul li.unix div span { width: 65%; background:linear-gradient(left, #ff0, rgb(237, 206, 34)); } */
+.row > ul li.adobe div span { background:linear-gradient(to right, #ff0, rgb(237, 206, 34)); width: 80%; }
+.row > ul li.react div span { background:linear-gradient(to right, #ff0, rgb(237, 206, 34)); width: 65%; }
+.row > ul li.es6 div span { background:linear-gradient(to right, #ff0, rgb(237, 206, 34)); width: 50%; }
+.row > ul li.node div span { background:linear-gradient(to right, #ff0, rgb(237, 206, 34)); width: 35%; }
+.row > ul li.redux div span { background:linear-gradient(to right, #ff0, rgb(237, 206, 34)); width: 25%; }
+
 
 .animated {
 	-webkit-animation-duration: 1s;
