@@ -1,26 +1,40 @@
 import React from 'react';
-import { Collapsible, CollapsibleItem } from 'react-materialize';
-import ReactBodymovin from 'react-bodymovin';
-import hobbies from './hobbies.json'
+import bodymovin from 'bodymovin'
+import animationData from './hobbies.json'
+
+
 
 class Hobbies extends React.Component {
 
-    render() {
-        const bodymovinOptions = {
-            loop: true,
-            autoplay: true,
-            prerender: true,
-            animationData: hobbies,
-            assetsPath: "/images/"
-        }    
+    animationIsAttached = false;
 
+    componentDidMount () {
+        this.attachAnimation()
+    }
+
+    render() {
         return (
         <div className="wrap">
             <h1>Hobbies</h1>
-            <ReactBodymovin options={bodymovinOptions} />
+            <div ref={(animationDiv) => { this.animationContainer = animationDiv; }}/>
         </div>
         )
     }
+
+    attachAnimation = () => {
+        if (this.animationContainer !== undefined && !this.animationIsAttached) {
+          const animationProperties = {
+            container: this.animationContainer,
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            animationData: animationData,
+            assetsPath : './images'
+          }
+  
+          bodymovin.loadAnimation(animationProperties);
+        }
+      }
 }
 
 export default Hobbies; 
