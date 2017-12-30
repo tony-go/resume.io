@@ -28,8 +28,7 @@ class Hobbies extends React.Component {
             renderer: 'svg',
             loop: true,
             autoplay: true,
-            animationData: animationData,
-            assetsPath : './images'
+            animationData: animationData
           }
   
           bodymovin.loadAnimation(animationProperties);
