@@ -13,5 +13,11 @@
   margin: 0;
 }
 
+@media screen and (max-width: 760px) {
 
+  .App-view {
+    height: 400px; 
+  }
+
+}
 
