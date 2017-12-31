@@ -15,6 +15,7 @@
 
 .chip {
 	background-color: #ff0;
+	font-weight: 600; 
 }
 
 .collapsible {
