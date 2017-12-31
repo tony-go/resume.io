@@ -22,12 +22,10 @@ class Hobbies extends React.Component {
             </Row>
             <Row>
                 <div className="social-media">
-                    <a href="#"><span>Facebook</span></a>
-                    <a href="#"><span>Twitter</span></a>
-                    <a href="#"><span>Google+</span></a>
-                    <a href="#"><span>Github</span></a>
-                    <a href="#"><span>Dribbble</span></a>
-                    <a href="#"><span>CodePen</span></a>
+                    <a target="_blank" href="https://github.com/TonyGorez"><span>GitHub</span></a>
+                    <a target="_blank" href="https://twitter.com/goreztony"><span>Twitter</span></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/tonygorez/"><span>Linkedin</span></a>
+                    <a target="_blank" href="https://www.behance.net/goreztonya13f"><span>Behance</span></a>
                 </div>
             </Row>
         </div>
