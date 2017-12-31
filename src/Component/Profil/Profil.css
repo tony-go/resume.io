@@ -12,7 +12,23 @@ h2 {
 	font-size: 30px; 
 }
 
-img {
-	margin-left: 7vw;
+.Profil img {
 	width: 120px;
+}
+
+.Profil-image {
+	width: 150px; 
+	margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+	text-align:center;
+	text-decoration:none;
+	color : black; 
+}
+
+
+.Profil-text span {
+	padding-right: 30px; 
 }
