@@ -4,3 +4,10 @@
     margin-right: auto;
 }
 
+@media (max-width: 640px) {
+    .Menu-link {
+        width: 200px; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
