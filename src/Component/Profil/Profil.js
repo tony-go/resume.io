@@ -22,7 +22,7 @@ class Profil extends React.Component{
 						</a>
 					</span>
 					<span>
-						<a mailto="gorez.tony@gmail.com">
+						<a href="mailto:gorez.tony@gmail.com">
 							<i class="fa fa-envelope  fa-2x" aria-hidden="true"></i>
 						</a>
 					</span>
